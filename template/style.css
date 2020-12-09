@@ -1,0 +1,239 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #ffffff;
+    --gray: #989898;
+    --gray-dark: #343a40;
+    --primary: #6206a8;
+    --secondary: #f5f6f8;
+    --success: #34ad80;
+    --info: #0684fe;
+    --warning: #f7b731;
+    --danger: #fe3f3e;
+    --light: #f8f9fa;
+    --dark: #3a3a3a;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body{
+    font-family: "DM Sans";
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #000000;
+text-align: left;
+}
+
+a{
+    
+    text-decoration: none;
+    font-weight: bold;
+   background-color: transparent;
+   color: black;
+}
+
+.landing-heading{
+    background-image: url("Bg22.png"),url("bg_1@2x.png");
+    background-size: 55%,100px;
+    display: block;
+    background-position: right top, left bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    /* padding-left: 15px; */
+   
+    
+}
+.head-button{
+    background-color: #6206a8;
+    border: none;
+    color: white;
+}
+.head-button:hover {
+    background-color: #450477;
+  }
+
+.one{
+    float: right;
+    margin-right: 30%;
+}
+
+#head-text{
+    margin-top: 15%;
+   
+}
+#head-img{
+    margin-top: 10%;
+  
+}
+i{
+    color: #f7b731;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+.pricing-card{
+    border:0;
+    border-color: #f7b731 !important;
+    border-top: 4px solid transparent;
+    height: 380px;
+    width: 310px;
+    text-align: center;
+    border-radius: 6px;
+box-shadow: 0 2px 13px 0 rgba(197, 194, 194, 0.5);
+color:#f7b731
+    
+}
+.popular{
+    border-color: #28a745  !important;
+    color:  #28a745 !important;
+
+}
+.Enterprise{
+    border-color: #007bff !important;
+    color:#007bff  !important
+
+}
+
+.pricing-card p{
+    font-size: 14px;
+color: #77838f;
+}
+.price{
+    display: inline-block;
+}
+
+.icon-faq{
+    color:black;
+    float: right;
+}
+
+.card-faq{
+    box-shadow: 0 2px 13px 0 rgba(197, 194, 194, 0.5);
+
+}
+
+.foi-footer{
+    background-image: url("Footer_bg.svg");
+    padding-top: 150px;
+    padding-bottom: 110px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white !important;
+   
+   
+    
+}
+.foi-footer .footer-content{
+    padding-bottom: 34px;
+border-bottom: 1px solid rgba(240, 240, 240, 0.39);
+}
+
+.foi-footer .footer-widget-area {
+    padding-top: 70px;
+}
+.footer-link{
+    color:white !important;
+}
+.social-menu a{
+    margin-right: 10px;
+}
+
+.team-member-avatar{
+    width: 108px;
+height: 108px;
+border-radius: 50%;
+
+object-fit: cover;
+margin-bottom: 24px;
+}
+.team-member-card {
+    text-align: center;
+}
+
+main{
+    margin-top:90px ;
+}
+ol {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right:5px ;
+        
+    }
+.main-section-two{
+    margin-top: 150px;
+}
+
+.team-member{
+    margin-top: 90px;
+
+}
+.foi-breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.contact-content {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.contact-widget {
+    padding: 22px 45px 14px;
+}
+       
+    
+.form-control {
+    font-family: 'Rubik', sans-serif;
+    border: 1px solid #e0e0e0;
+    padding: 13px 29px;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #9e9fa1;
+    font-weight: 400;
+    height: calc(1.33em + 2rem + 2px);
+}
+
+.contact-widget:first-child {
+    border-right: 1px solid #979696;
+    
+}
+.media {
+    display: flex;
+    
+}
+
+.contact-widget img {
+    margin-right: 20px;
+}
+.contact-btn{
+
+    background-color: #6f42c1;
+    border: none;
+    
+}
+.form-footer-text{
+    margin-bottom: 80px;
+
+}
